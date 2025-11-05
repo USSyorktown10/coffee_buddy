@@ -1,0 +1,30 @@
+{
+  "pins": {
+    "heater_relay": 17,
+    "pump_relay": 27,
+    "grinder_relay": 26,
+    "pressure_valve": 18,
+    "stepper_enable": 16,
+    "stepper_step": 20,
+    "stepper_dir": 21,
+    "flow_sensor": 12,
+    "start_button": 24,
+    "led_ring": 25
+  },
+  "hx711": {
+    "dout": 5,
+    "pd_sck": 6,
+    "scale": 415.0,
+    "offset": 0.0
+  },
+  "safety": {
+    "max_temp_c": 98.0,
+    "max_pressure_bar": 10.0,
+    "max_pump_seconds": 50.0,
+    "max_heater_minutes": 7.0
+  },
+  "dose": {
+    "target_grams": 18.0,
+    "tolerance_grams": 0.3
+  }
+}
